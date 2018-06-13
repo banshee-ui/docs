@@ -7,38 +7,36 @@ module.exports = {
     }
   },
   head: [
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'stylesheet', href: "https://use.typekit.net/inu5pui.css" }]
   ],
+  serviceWorker: true,
   themeConfig: {
-    sidebar: {
-      '/docs/': [
-        {
-          title: 'Introduction',
-          collapsable: false,
-          children: [
-            'introduction/what-is-banshee'
-          ]
-        },
-        {
-          title: 'Getting Started',
-          collapsable: false,
-          children: [
-            'getting-started/installation'
-          ]
-        },
-        {
-          title: 'Components',
-          collapsable: false,
-          children: [
-            'components/test-component'
-          ]
-        },
-        {
-          title: 'Recipes',
-          collapsable: false,
-          children: []
+    repo: 'banshee-ui/docs',
+    editLinks: true,
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        nav: [
+          {
+            text: 'Guide',
+            link: '/guide/'
+          }
+        ],
+        sidebar: {
+          '/guide/': [{
+            title: 'Guide',
+            collapsable: false,
+            children: [
+              '',
+              'getting-started'
+            ]
+          }]
         }
-      ]
+      }
     }
   }
 }
