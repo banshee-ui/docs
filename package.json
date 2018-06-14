@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "--- home: true title: Banshee heroImage: /banshee-logo.png actionText: Get Started actionLink: /guide/ footer: MIT Licensed | Copyright © 2018-present Dillon Chanis ---",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banshee-ui/docs.git"
+  },
+  "author": "Dillon Chanis <dillonchanis92@gmail.com> (http://dillonchanis.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/banshee-ui/docs/issues"
+  },
+  "homepage": "https://github.com/banshee-ui/docs#readme",
+  "devDependencies": {
+    "vuepress": "0.10.1"
+  }
+}
