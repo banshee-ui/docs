@@ -4,6 +4,8 @@ A component for managing collections of data.  It provides helpers for searching
 
 ## Basic Usage
 
+[![Edit Banshee - Basic SmartList ](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/mz2zjl4n28)
+
 ```html
 <banshee-smart-list :items="minions">
   <div slot-scope="{ items }">
@@ -70,6 +72,8 @@ sort: {
 ### More Examples
 
 #### Bootstrap 4 - Data Table
+
+[![Edit Banshee - Bootstrap 4 Data Table with SmartList ](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1yv76p0mrj?module=%2Fsrc%2FApp.vue)
 
 ```html
 <template>

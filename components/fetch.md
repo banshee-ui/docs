@@ -22,7 +22,7 @@ Banshee component for handling APIs.
 
 The `<banshee-fetch>` component is an abstraction over the browser's own `fetch` API. Instead of using methods, mixins, and lifecycle hooks to manage API data you can create services via the `<banshee-fetch>` component.
 
-## Banshee Fetch
+## Fetch
 
 ### Attributes & Props
 

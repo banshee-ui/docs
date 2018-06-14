@@ -6,7 +6,7 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: "https://use.typekit.net/inu5pui.css" }]
   ],
   themeConfig: {
-    repo: 'banshee-ui/docs',
+    repo: 'banshee-ui/banshee',
     editLinks: true,
     nav: [
       {

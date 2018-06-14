@@ -4,6 +4,8 @@ Banshee toggle component.
 
 ## Basic Usage
 
+[![Edit Banshee - Toggle Basic](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/llp8976357?module=%2Fsrc%2FApp.vue)
+
 ```html
 <template>
   <div id="app">

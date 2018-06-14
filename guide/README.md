@@ -14,6 +14,8 @@ You may find Banshee useful when porting legacy apps to Vue. Since Banshee ships
 
 Banshee is currently in Beta and is missing some components and features. Here are the some of the things that are planned for 1.0:
 
+- Accessibility improvements
+- Tests!
 - Portal component
 - Audio / Video component
 - Tree component
