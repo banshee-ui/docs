@@ -1,10 +1,6 @@
 module.exports = {
   title: 'Banshee',
   description: 'A  renderless UI component and utility library for Vue.',
-  head: [
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'stylesheet', href: "https://use.typekit.net/inu5pui.css" }]
-  ],
   themeConfig: {
     repo: 'banshee-ui/banshee',
     editLinks: true,
