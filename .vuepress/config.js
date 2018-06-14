@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/docs/',
   title: 'Banshee',
   description: 'A  renderless UI component and utility library for Vue.',
   head: [
