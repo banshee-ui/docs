@@ -4,6 +4,8 @@ A basic carousel component for looping through slides of images or text.
 
 ## Basic Usage
 
+[![Edit Banshee - Carousel](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/o7zpp38815)
+
 ```html
 <banshee-carousel>
   <banshee-carousel-slide>
@@ -57,8 +59,6 @@ slides: [
 }
 </style>
 ```
-
-[![Edit Banshee - Carousel](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/o7zpp38815)
 
 ## Carousel
 

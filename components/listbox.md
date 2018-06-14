@@ -81,6 +81,8 @@ The listbox is composed of two tags:
 
 ## Example: List Transfer
 
+[![Edit Banshee - Listbox Transfer](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/jjj2povpk3?module=%2Fsrc%2FApp.vue)
+
 ```html
 <template>
   <div id="app">
